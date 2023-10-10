@@ -38,6 +38,7 @@ body {
     padding: 80px 150px 100px 150px;
     display: flex;
     justify-content: space-between;
+    gap: 50px;
 }
 
 .first.left {
@@ -45,6 +46,8 @@ body {
     flex-direction: column;
     align-items: start;
     gap: 18px;
+    flex: auto;
+    width: 600px;
 }
 
 .bigger-text {
@@ -68,6 +71,39 @@ button {
 }
 
 .first-image {
+    flex: auto;
     width: 600px;
-    height: auto;
+}
+
+.second-title {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.body.second {
+    background-color: #f9faf8;
+    padding: 50px 250px 100px 250px;
+}
+
+.profile-container {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    font-size: 18px;
+    color: #1f2937;
+}
+
+.profile-image {
+    width: 250px;
+    height: 250px;
 }
